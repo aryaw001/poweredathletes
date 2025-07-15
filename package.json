@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "server": "node server/index.js",
-    "start": "concurrently \"npm run server\" \"npm run dev\"",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
